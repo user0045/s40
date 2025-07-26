@@ -1,0 +1,195 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+7:22:24 AM [express] serving on port 5000
+7:22:54 AM [express] POST /api/admin/check-blocked 200 in 302ms :: {"isBlock=== EPISODE VIEW INCREMENT REQUEST ===
+Episode ID: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Request IP: 172.31.126.98
+Request headers: {
+  host: '5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  'content-length': '0',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+  'content-type': 'application/json',
+  origin: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  referer: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev/player/31732466-3146-4ee8-9c2c-32f4557b7a6f?episode=88d9b282-8ccb-4b89-84e8-47e00205aacb',
+  'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'same-origin',
+  'x-forwarded-for': '110.226.160.170, 10.84.8.43',
+  'x-forwarded-proto': 'https',
+  'x-replit-user-bio': '',
+  'x-replit-user-id': '',
+  'x-replit-user-name': '',
+  'x-replit-user-profile-image': '',
+  'x-replit-user-roles': '',
+  'x-replit-user-teams': '',
+  'x-replit-user-url': ''
+}
+Calling storage.incrementEpisodeViews for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Incrementing episode views for episodeId: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Episode view incremented successfully
+Storage result: undefined
+Episode view incremented successfully for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+7:24:21 AM [express] POST /api/views/episode/88d9b282-8ccb-4b89-84e8-47e00205aacb 200 in 380ms :: {"…
+7:24:45 AM [express] POST /api/admin/login 200 in 397ms :: {"success":true,"message":"Login successf…
+7:24:47 AM [express] GET /api/platform-stats 200 in 43ms :: {"total_movies":1,"total_shows":2,"total…
+7:24:48 AM [express] GET /api/views/web-series/31732466-3146-4ee8-9c2c-32f4557b7a6f 304 in 35ms :: {…
+7:24:48 AM [express] GET /api/views/web-series/42bb87f4-88a6-42ac-b00e-61e2e20e248a 304 in 44ms :: {…
+7:24:48 AM [express] GET /api/views/show/b062d9cc-0c32-44fc-bc10-8d76da1f5441 304 in 113ms :: {"view…
+7:24:48 AM [express] GET /api/views/movie/f7a5452b-e586-4ee8-85a9-24353a2f03bf 200 in 253ms :: {"vie…
+7:24:48 AM [express] GET /api/views/show/9696cfc0-f7bf-4a8a-8f2e-ba1bb81cef2a 304 in 315ms :: {"view…
+7:24:53 AM [express] GET /api/views/show/9696cfc0-f7bf-4a8a-8f2e-ba1bb81cef2a 304 in 91ms :: {"views…
+7:24:53 AM [express] GET /api/views/show/b062d9cc-0c32-44fc-bc10-8d76da1f5441 304 in 122ms :: {"view…
+7:24:54 AM [express] GET /api/views/web-series/42bb87f4-88a6-42ac-b00e-61e2e20e248a 304 in 235ms :: …
+7:24:54 AM [express] GET /api/views/movie/f7a5452b-e586-4ee8-85a9-24353a2f03bf 304 in 232ms :: {"vie…
+7:24:54 AM [express] GET /api/views/web-series/31732466-3146-4ee8-9c2c-32f4557b7a6f 304 in 235ms :: …
+=== EPISODE VIEW INCREMENT REQUEST ===
+Episode ID: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Request IP: 172.31.126.98
+Request headers: {
+  host: '5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  'content-length': '0',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+  'content-type': 'application/json',
+  origin: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  referer: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev/player/31732466-3146-4ee8-9c2c-32f4557b7a6f?episode=88d9b282-8ccb-4b89-84e8-47e00205aacb',
+  'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'same-origin',
+  'x-forwarded-for': '110.226.160.170, 10.84.2.133',
+  'x-forwarded-proto': 'https',
+  'x-replit-user-bio': '',
+  'x-replit-user-id': '',
+  'x-replit-user-name': '',
+  'x-replit-user-profile-image': '',
+  'x-replit-user-roles': '',
+  'x-replit-user-teams': '',
+  'x-replit-user-url': ''
+}
+Calling storage.incrementEpisodeViews for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Incrementing episode views for episodeId: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Episode view incremented successfully
+Storage result: undefined
+Episode view incremented successfully for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+7:25:06 AM [express] POST /api/views/episode/88d9b282-8ccb-4b89-84e8-47e00205aacb 200 in 45ms :: {"s…
+=== EPISODE VIEW INCREMENT REQUEST ===
+Episode ID: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Request IP: 172.31.126.98
+Request headers: {
+  host: '5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  'content-length': '0',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+  'content-type': 'application/json',
+  origin: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  referer: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev/player/31732466-3146-4ee8-9c2c-32f4557b7a6f?episode=88d9b282-8ccb-4b89-84e8-47e00205aacb',
+  'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-storage-access': 'active',
+  'x-forwarded-for': '110.226.160.170, 10.84.1.112',
+  'x-forwarded-proto': 'https',
+  'x-replit-user-bio': '',
+  'x-replit-user-id': '',
+  'x-replit-user-name': '',
+  'x-replit-user-profile-image': '',
+  'x-replit-user-roles': '',
+  'x-replit-user-teams': '',
+  'x-replit-user-url': ''
+}
+Calling storage.incrementEpisodeViews for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Incrementing episode views for episodeId: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Episode view incremented successfully
+Storage result: undefined
+Episode view incremented successfully for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+7:26:20 AM [express] POST /api/views/episode/88d9b282-8ccb-4b89-84e8-47e00205aacb 200 in 63ms :: {"s…
+=== EPISODE VIEW INCREMENT REQUEST ===
+Episode ID: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Request IP: 172.31.126.98
+Request headers: {
+  host: '5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  'content-length': '0',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+  'content-type': 'application/json',
+  origin: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  referer: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev/player/31732466-3146-4ee8-9c2c-32f4557b7a6f?episode=88d9b282-8ccb-4b89-84e8-47e00205aacb',
+  'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-storage-access': 'active',
+  'x-forwarded-for': '110.226.160.170, 10.84.1.112',
+  'x-forwarded-proto': 'https',
+  'x-replit-user-bio': '',
+  'x-replit-user-id': '',
+  'x-replit-user-name': '',
+  'x-replit-user-profile-image': '',
+  'x-replit-user-roles': '',
+  'x-replit-user-teams': '',
+  'x-replit-user-url': ''
+}
+Calling storage.incrementEpisodeViews for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Incrementing episode views for episodeId: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Episode view incremented successfully
+Storage result: undefined
+Episode view incremented successfully for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+7:27:05 AM [express] POST /api/views/episode/88d9b282-8ccb-4b89-84e8-47e00205aacb 200 in 392ms :: {"…
+=== EPISODE VIEW INCREMENT REQUEST ===
+Episode ID: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Request IP: 172.31.126.98
+Request headers: {
+  host: '5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+  'content-length': '0',
+  accept: '*/*',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+  'content-type': 'application/json',
+  origin: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev',
+  referer: 'https://5b67e46e-9051-4728-b6a1-ef9759e2963a-00-lplvtaxlbr50.sisko.replit.dev/player/31732466-3146-4ee8-9c2c-32f4557b7a6f?episode=88d9b282-8ccb-4b89-84e8-47e00205aacb',
+  'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"Windows"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-storage-access': 'active',
+  'x-forwarded-for': '110.226.160.170, 10.84.1.112',
+  'x-forwarded-proto': 'https',
+  'x-replit-user-bio': '',
+  'x-replit-user-id': '',
+  'x-replit-user-name': '',
+  'x-replit-user-profile-image': '',
+  'x-replit-user-roles': '',
+  'x-replit-user-teams': '',
+  'x-replit-user-url': ''
+}
+Calling storage.incrementEpisodeViews for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Incrementing episode views for episodeId: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+Episode view incremented successfully
+Storage result: undefined
+Episode view incremented successfully for: 88d9b282-8ccb-4b89-84e8-47e00205aacb
+7:27:51 AM [express] POST /api/views/episode/88d9b282-8ccb-4b89-84e8-47e00205aacb 200 in 251ms :: {"…
